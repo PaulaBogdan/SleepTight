@@ -1,0 +1,6 @@
+framework module Pods_SleepTight {
+  umbrella header "Pods-SleepTight-umbrella.h"
+
+  export *
+  module * { export * }
+}

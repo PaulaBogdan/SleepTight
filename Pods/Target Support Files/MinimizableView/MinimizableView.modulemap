@@ -1,0 +1,6 @@
+framework module MinimizableView {
+  umbrella header "MinimizableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

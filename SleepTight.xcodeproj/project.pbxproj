@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D3DABD67D262BFE903C9FF /* Pods_SleepTightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D96F246D74322C3EA447A8 /* Pods_SleepTightTests.framework */; };
+		8FDA4988EDAB44E2539BDF52 /* Pods_SleepTight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940939A0A7D0005B5A15D967 /* Pods_SleepTight.framework */; };
+		DA079ACB29374F030052637D /* RecentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA079ACA29374F030052637D /* RecentViewModel.swift */; };
+		DA079ACD29374F180052637D /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA079ACC29374F180052637D /* FavoritesViewModel.swift */; };
+		DA36D978296C596900BA4776 /* FavoritesSongsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D977296C596900BA4776 /* FavoritesSongsRepository.swift */; };
+		DA36D97A296D6D9B00BA4776 /* GoogleReauthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D979296D6D9B00BA4776 /* GoogleReauthenticationButton.swift */; };
+		DA4296C42966CA0A00BB03F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4296C32966CA0A00BB03F4 /* LaunchScreen.storyboard */; };
+		DA462DDB28CB40B8001CAF6A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA462DDA28CB40B8001CAF6A /* SearchBar.swift */; };
+		DA4ED8D8291A4325001DF3DF /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED8D7291A4325001DF3DF /* SettingsRowView.swift */; };
+		DA4ED8DA291A4351001DF3DF /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED8D9291A4351001DF3DF /* ProfileListView.swift */; };
+		DA4ED8DC291A549F001DF3DF /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED8DB291A549F001DF3DF /* LoadingScreen.swift */; };
+		DA4ED8DE291A79E6001DF3DF /* SongDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED8DD291A79E6001DF3DF /* SongDescription.swift */; };
+		DA4ED90B2924F5F0001DF3DF /* GreetingStringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED90A2924F5F0001DF3DF /* GreetingStringFormatter.swift */; };
+		DA4ED90D2924F899001DF3DF /* LoginFieldRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4ED90C2924F899001DF3DF /* LoginFieldRowView.swift */; };
+		DA712DC5296581B400B64CA9 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA712DC4296581B400B64CA9 /* BackgroundImage.swift */; };
+		DA712DC82965820900B64CA9 /* AudioManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA712DC72965820900B64CA9 /* AudioManagerTests.swift */; };
+		DA760BB92811B76B00B58FFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA760BB82811B76B00B58FFD /* GoogleService-Info.plist */; };
+		DA80AE8C294C5A1C00C9AE45 /* SongRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80AE8B294C5A1C00C9AE45 /* SongRepositoryProtocol.swift */; };
+		DA80AE8F294C5A4900C9AE45 /* SongRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80AE8E294C5A4900C9AE45 /* SongRepository.swift */; };
+		DA80AE9729508A7F00C9AE45 /* SleepTightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80AE9629508A7F00C9AE45 /* SleepTightTests.swift */; };
+		DA82AAB62806B61E00B0743C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82AAB52806B61E00B0743C /* ProfileView.swift */; };
+		DA82AAB82806B62A00B0743C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82AAB72806B62A00B0743C /* FavoritesView.swift */; };
+		DA82AABF2806BD0F00B0743C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82AABE2806BD0F00B0743C /* Extensions.swift */; };
+		DA82AAC82806DCBE00B0743C /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82AAC72806DCBE00B0743C /* PlayButton.swift */; };
+		DA91A8452807FB4E009BAC3E /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A8442807FB4E009BAC3E /* CategoryButton.swift */; };
+		DA91A84D28081451009BAC3E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A84C28081451009BAC3E /* AudioManager.swift */; };
+		DA91A85128081667009BAC3E /* CoverPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A85028081667009BAC3E /* CoverPlayerView.swift */; };
+		DA91A85328081AAE009BAC3E /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A85228081AAE009BAC3E /* PlaybackControlButton.swift */; };
+		DA91A8552808317F009BAC3E /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A8542808317F009BAC3E /* SongViewModel.swift */; };
+		DA91A86428089FCE009BAC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91A86328089FCE009BAC3E /* AppDelegate.swift */; };
+		DAA29E492962E47A00806A89 /* UserViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29E482962E47A00806A89 /* UserViewModelTests.swift */; };
+		DAA29E4B2962E83200806A89 /* FavoritesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29E4A2962E83200806A89 /* FavoritesViewModelTests.swift */; };
+		DAA29E4D296316B900806A89 /* SongViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29E4C296316B900806A89 /* SongViewModelTests.swift */; };
+		DAA29E4F2963186400806A89 /* RecentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA29E4E2963186400806A89 /* RecentViewModelTests.swift */; };
+		DAA439DE2802177E00491B99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA439DD2802177E00491B99 /* HomeView.swift */; };
+		DAA439E0280217FD00491B99 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA439DF280217FD00491B99 /* SearchView.swift */; };
+		DAB8315F29643F2700FC8BD2 /* UserSongsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8315E29643F2700FC8BD2 /* UserSongsProtocol.swift */; };
+		DAB91C8B281300BD00B06B95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB91C8A281300BD00B06B95 /* PlayerView.swift */; };
+		DAB91C8D2815966500B06B95 /* MusicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB91C8C2815966500B06B95 /* MusicRowView.swift */; };
+		DACC49A028A0EECB009B8912 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC499F28A0EECB009B8912 /* PrivacyPolicyView.swift */; };
+		DACC49A228A0F98D009B8912 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC49A128A0F98D009B8912 /* TermsAndConditionsView.swift */; };
+		DACDE6002802121D0002647D /* SleepTightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE5FF2802121D0002647D /* SleepTightApp.swift */; };
+		DACDE6022802121D0002647D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDE6012802121D0002647D /* ContentView.swift */; };
+		DACDE6042802121E0002647D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACDE6032802121E0002647D /* Assets.xcassets */; };
+		DACDE6072802121E0002647D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACDE6062802121E0002647D /* Preview Assets.xcassets */; };
+		DAD170D0287A038F00CB7FB6 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD170CF287A038F00CB7FB6 /* HeartView.swift */; };
+		DADA9CC029261C7F003F21C2 /* ErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA9CBF29261C7F003F21C2 /* ErrorText.swift */; };
+		DADA9CC229261D54003F21C2 /* ConditionsDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA9CC129261D54003F21C2 /* ConditionsDescription.swift */; };
+		DADB53E22892910B0048D71A /* ForgotAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB53E12892910B0048D71A /* ForgotAlert.swift */; };
+		DADB53E42892A0C00048D71A /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB53E32892A0C00048D71A /* AlertButton.swift */; };
+		DADBFB2028856A1D00FA834D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB1F28856A1D00FA834D /* LoginView.swift */; };
+		DADBFB222885796100FA834D /* SignInWithAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB212885796100FA834D /* SignInWithAppleButtonView.swift */; };
+		DADBFB24288579EB00FA834D /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB23288579EB00FA834D /* SignInWithAppleView.swift */; };
+		DADBFB272885DFC800FA834D /* LoginCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB262885DFC800FA834D /* LoginCircleButton.swift */; };
+		DADBFB292885E67600FA834D /* SignUpWithMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB282885E67600FA834D /* SignUpWithMail.swift */; };
+		DADBFB2B2887263000FA834D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB2A2887263000FA834D /* MainView.swift */; };
+		DADBFB2F288E88E300FA834D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB2E288E88E300FA834D /* SceneDelegate.swift */; };
+		DADBFB33288E934900FA834D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB32288E934900FA834D /* UserViewModel.swift */; };
+		DADBFB35288F1AF500FA834D /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB34288F1AF500FA834D /* ForgotPasswordView.swift */; };
+		DADBFB49288FECF700FA834D /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB38288FECF700FA834D /* FBFireStore.swift */; };
+		DADBFB4A288FECF700FA834D /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB39288FECF700FA834D /* FBKeys.swift */; };
+		DADBFB4B288FECF700FA834D /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB3A288FECF700FA834D /* FBUser.swift */; };
+		DADBFB4C288FECF700FA834D /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB3B288FECF700FA834D /* FBFireStoreError.swift */; };
+		DADBFB4D288FECF700FA834D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB3D288FECF700FA834D /* UserInfo.swift */; };
+		DADBFB4F288FECF700FA834D /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB3F288FECF700FA834D /* FBAuthError.swift */; };
+		DADBFB50288FECF700FA834D /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBFB40288FECF700FA834D /* FBAuth.swift */; };
+		DAE2B3D7287D545A005C3D79 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2B3D6287D545A005C3D79 /* TimerView.swift */; };
+		DAECDA4C28D99920008E93B3 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAECDA4B28D99920008E93B3 /* ChangePassword.swift */; };
+		DAECDA4E28D9C666008E93B3 /* ReauthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAECDA4D28D9C666008E93B3 /* ReauthenticationView.swift */; };
+		DAECDA5328E19D87008E93B3 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAECDA5228E19D87008E93B3 /* AboutApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA80AE9829508A7F00C9AE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACDE5F42802121D0002647D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACDE5FB2802121D0002647D;
+			remoteInfo = SleepTight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC0A62F44A96A319E3D9544 /* Pods-SleepTight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTight.debug.xcconfig"; path = "Target Support Files/Pods-SleepTight/Pods-SleepTight.debug.xcconfig"; sourceTree = "<group>"; };
+		68981CE44DF829E1106DBC1F /* Pods-SleepTightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTightTests.debug.xcconfig"; path = "Target Support Files/Pods-SleepTightTests/Pods-SleepTightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		940939A0A7D0005B5A15D967 /* Pods_SleepTight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SleepTight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D96F246D74322C3EA447A8 /* Pods_SleepTightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SleepTightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBE55703943ABD145E6E774 /* Pods-SleepTight-SleepTightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTight-SleepTightTests.debug.xcconfig"; path = "Target Support Files/Pods-SleepTight-SleepTightTests/Pods-SleepTight-SleepTightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6EACF2D08D917CE113A94D0 /* Pods-SleepTight-SleepTightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTight-SleepTightTests.release.xcconfig"; path = "Target Support Files/Pods-SleepTight-SleepTightTests/Pods-SleepTight-SleepTightTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA079ACA29374F030052637D /* RecentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewModel.swift; sourceTree = "<group>"; };
+		DA079ACC29374F180052637D /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		DA36D977296C596900BA4776 /* FavoritesSongsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSongsRepository.swift; sourceTree = "<group>"; };
+		DA36D979296D6D9B00BA4776 /* GoogleReauthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleReauthenticationButton.swift; sourceTree = "<group>"; };
+		DA4296C32966CA0A00BB03F4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA462DDA28CB40B8001CAF6A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DA4ED8D7291A4325001DF3DF /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		DA4ED8D9291A4351001DF3DF /* ProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListView.swift; sourceTree = "<group>"; };
+		DA4ED8DB291A549F001DF3DF /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		DA4ED8DD291A79E6001DF3DF /* SongDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDescription.swift; sourceTree = "<group>"; };
+		DA4ED90A2924F5F0001DF3DF /* GreetingStringFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingStringFormatter.swift; sourceTree = "<group>"; };
+		DA4ED90C2924F899001DF3DF /* LoginFieldRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldRowView.swift; sourceTree = "<group>"; };
+		DA61400D2802D858004426F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA712DC4296581B400B64CA9 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		DA712DC72965820900B64CA9 /* AudioManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerTests.swift; sourceTree = "<group>"; };
+		DA760BB82811B76B00B58FFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA80AE8B294C5A1C00C9AE45 /* SongRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRepositoryProtocol.swift; sourceTree = "<group>"; };
+		DA80AE8E294C5A4900C9AE45 /* SongRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRepository.swift; sourceTree = "<group>"; };
+		DA80AE9429508A7F00C9AE45 /* SleepTightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA80AE9629508A7F00C9AE45 /* SleepTightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTightTests.swift; sourceTree = "<group>"; };
+		DA80AE9D2950A3BC00C9AE45 /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA82AAB52806B61E00B0743C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA82AAB72806B62A00B0743C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DA82AABE2806BD0F00B0743C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DA82AAC72806DCBE00B0743C /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		DA91A8442807FB4E009BAC3E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		DA91A84C28081451009BAC3E /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		DA91A85028081667009BAC3E /* CoverPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverPlayerView.swift; sourceTree = "<group>"; };
+		DA91A85228081AAE009BAC3E /* PlaybackControlButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		DA91A8542808317F009BAC3E /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		DA91A86328089FCE009BAC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAA29E482962E47A00806A89 /* UserViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModelTests.swift; sourceTree = "<group>"; };
+		DAA29E4A2962E83200806A89 /* FavoritesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModelTests.swift; sourceTree = "<group>"; };
+		DAA29E4C296316B900806A89 /* SongViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModelTests.swift; sourceTree = "<group>"; };
+		DAA29E4E2963186400806A89 /* RecentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewModelTests.swift; sourceTree = "<group>"; };
+		DAA439DD2802177E00491B99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DAA439DF280217FD00491B99 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DAB8315E29643F2700FC8BD2 /* UserSongsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSongsProtocol.swift; sourceTree = "<group>"; };
+		DAB91C8A281300BD00B06B95 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		DAB91C8C2815966500B06B95 /* MusicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRowView.swift; sourceTree = "<group>"; };
+		DACC499F28A0EECB009B8912 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		DACC49A128A0F98D009B8912 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		DACDE5FC2802121D0002647D /* SleepTight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACDE5FF2802121D0002647D /* SleepTightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTightApp.swift; sourceTree = "<group>"; };
+		DACDE6012802121D0002647D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DACDE6032802121E0002647D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACDE6062802121E0002647D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD170CF287A038F00CB7FB6 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		DADA9CBF29261C7F003F21C2 /* ErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorText.swift; sourceTree = "<group>"; };
+		DADA9CC129261D54003F21C2 /* ConditionsDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsDescription.swift; sourceTree = "<group>"; };
+		DADB53E12892910B0048D71A /* ForgotAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotAlert.swift; sourceTree = "<group>"; };
+		DADB53E32892A0C00048D71A /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		DADBFB1F28856A1D00FA834D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DADBFB212885796100FA834D /* SignInWithAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonView.swift; sourceTree = "<group>"; };
+		DADBFB23288579EB00FA834D /* SignInWithAppleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		DADBFB2528857D4300FA834D /* SleepTight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepTight.entitlements; sourceTree = "<group>"; };
+		DADBFB262885DFC800FA834D /* LoginCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCircleButton.swift; sourceTree = "<group>"; };
+		DADBFB282885E67600FA834D /* SignUpWithMail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithMail.swift; sourceTree = "<group>"; };
+		DADBFB2A2887263000FA834D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		DADBFB2E288E88E300FA834D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DADBFB32288E934900FA834D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		DADBFB34288F1AF500FA834D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		DADBFB38288FECF700FA834D /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		DADBFB39288FECF700FA834D /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		DADBFB3A288FECF700FA834D /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		DADBFB3B288FECF700FA834D /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		DADBFB3D288FECF700FA834D /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DADBFB3F288FECF700FA834D /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		DADBFB40288FECF700FA834D /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		DAE2B3D6287D545A005C3D79 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		DAECDA4B28D99920008E93B3 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		DAECDA4D28D9C666008E93B3 /* ReauthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReauthenticationView.swift; sourceTree = "<group>"; };
+		DAECDA5228E19D87008E93B3 /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		F1522AEA9B16E6EA9E2AB955 /* Pods-SleepTight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTight.release.xcconfig"; path = "Target Support Files/Pods-SleepTight/Pods-SleepTight.release.xcconfig"; sourceTree = "<group>"; };
+		F9CBF83ACE2DA6879ABC784E /* Pods-SleepTightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepTightTests.release.xcconfig"; path = "Target Support Files/Pods-SleepTightTests/Pods-SleepTightTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA80AE9129508A7F00C9AE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D3DABD67D262BFE903C9FF /* Pods_SleepTightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACDE5F92802121D0002647D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDA4988EDAB44E2539BDF52 /* Pods_SleepTight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87ED1A5BD9CF6EDBCB17F113 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0A62F44A96A319E3D9544 /* Pods-SleepTight.debug.xcconfig */,
+				F1522AEA9B16E6EA9E2AB955 /* Pods-SleepTight.release.xcconfig */,
+				AFBE55703943ABD145E6E774 /* Pods-SleepTight-SleepTightTests.debug.xcconfig */,
+				C6EACF2D08D917CE113A94D0 /* Pods-SleepTight-SleepTightTests.release.xcconfig */,
+				68981CE44DF829E1106DBC1F /* Pods-SleepTightTests.debug.xcconfig */,
+				F9CBF83ACE2DA6879ABC784E /* Pods-SleepTightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B909D06AE247197DCBB6DEF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA80AE9D2950A3BC00C9AE45 /* FirebaseStorage.framework */,
+				940939A0A7D0005B5A15D967 /* Pods_SleepTight.framework */,
+				A5D96F246D74322C3EA447A8 /* Pods_SleepTightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4AE1742943DBA700119366 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				DA4ED90A2924F5F0001DF3DF /* GreetingStringFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		DA712DBF29656FFF00B64CA9 /* ViewModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA29E4A2962E83200806A89 /* FavoritesViewModelTests.swift */,
+				DAA29E4E2963186400806A89 /* RecentViewModelTests.swift */,
+				DAA29E4C296316B900806A89 /* SongViewModelTests.swift */,
+				DAA29E482962E47A00806A89 /* UserViewModelTests.swift */,
+			);
+			name = ViewModelsTests;
+			sourceTree = "<group>";
+		};
+		DA712DC6296581F000B64CA9 /* AudioManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA712DC72965820900B64CA9 /* AudioManagerTests.swift */,
+			);
+			name = AudioManagerTests;
+			sourceTree = "<group>";
+		};
+		DA80AE8A294C59FD00C9AE45 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DA80AE8B294C5A1C00C9AE45 /* SongRepositoryProtocol.swift */,
+				DAB8315E29643F2700FC8BD2 /* UserSongsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DA80AE8D294C5A2E00C9AE45 /* SongRepository */ = {
+			isa = PBXGroup;
+			children = (
+				DA80AE8E294C5A4900C9AE45 /* SongRepository.swift */,
+				DA36D977296C596900BA4776 /* FavoritesSongsRepository.swift */,
+			);
+			path = SongRepository;
+			sourceTree = "<group>";
+		};
+		DA80AE9529508A7F00C9AE45 /* SleepTightTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA712DC6296581F000B64CA9 /* AudioManagerTests */,
+				DA712DBF29656FFF00B64CA9 /* ViewModelsTests */,
+				DA80AE9629508A7F00C9AE45 /* SleepTightTests.swift */,
+			);
+			path = SleepTightTests;
+			sourceTree = "<group>";
+		};
+		DA82AABD2806BCE500B0743C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA82AABE2806BD0F00B0743C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA82AACB2806E14B00B0743C /* SongView */ = {
+			isa = PBXGroup;
+			children = (
+				DA82AAC72806DCBE00B0743C /* PlayButton.swift */,
+				DA91A8442807FB4E009BAC3E /* CategoryButton.swift */,
+				DA91A85228081AAE009BAC3E /* PlaybackControlButton.swift */,
+				DA91A85028081667009BAC3E /* CoverPlayerView.swift */,
+				DAB91C8C2815966500B06B95 /* MusicRowView.swift */,
+				DA4ED8DD291A79E6001DF3DF /* SongDescription.swift */,
+				DAD170CF287A038F00CB7FB6 /* HeartView.swift */,
+			);
+			path = SongView;
+			sourceTree = "<group>";
+		};
+		DACDE5F32802121D0002647D = {
+			isa = PBXGroup;
+			children = (
+				DA61400D2802D858004426F1 /* Info.plist */,
+				DACDE5FF2802121D0002647D /* SleepTightApp.swift */,
+				DA760BB82811B76B00B58FFD /* GoogleService-Info.plist */,
+				DACDE5FE2802121D0002647D /* SleepTight */,
+				DA80AE9529508A7F00C9AE45 /* SleepTightTests */,
+				DACDE5FD2802121D0002647D /* Products */,
+				87ED1A5BD9CF6EDBCB17F113 /* Pods */,
+				B909D06AE247197DCBB6DEF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DACDE5FD2802121D0002647D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACDE5FC2802121D0002647D /* SleepTight.app */,
+				DA80AE9429508A7F00C9AE45 /* SleepTightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACDE5FE2802121D0002647D /* SleepTight */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB2528857D4300FA834D /* SleepTight.entitlements */,
+				DACDE60D280212470002647D /* Views */,
+				DADBFB36288FECF700FA834D /* Firebase */,
+				DACDE60E280212500002647D /* Components */,
+				DA80AE8A294C59FD00C9AE45 /* Protocols */,
+				DA80AE8D294C5A2E00C9AE45 /* SongRepository */,
+				DA82AABD2806BCE500B0743C /* Extensions */,
+				DACDE60F280213200002647D /* ViewModels */,
+				DA4AE1742943DBA700119366 /* Formatters */,
+				DACDE6112802132E0002647D /* Controllers */,
+				DA91A84C28081451009BAC3E /* AudioManager.swift */,
+				DA91A86328089FCE009BAC3E /* AppDelegate.swift */,
+				DACDE6032802121E0002647D /* Assets.xcassets */,
+				DA4296C32966CA0A00BB03F4 /* LaunchScreen.storyboard */,
+				DA712DC4296581B400B64CA9 /* BackgroundImage.swift */,
+				DACDE6052802121E0002647D /* Preview Content */,
+			);
+			path = SleepTight;
+			sourceTree = "<group>";
+		};
+		DACDE6052802121E0002647D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DACDE6062802121E0002647D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DACDE60D280212470002647D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAE2B3D4287D540E005C3D79 /* MainViews */,
+				DAE2B3D5287D5436005C3D79 /* SubViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DACDE60E280212500002647D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DADB53E32892A0C00048D71A /* AlertButton.swift */,
+				DA462DDA28CB40B8001CAF6A /* SearchBar.swift */,
+				DA82AACB2806E14B00B0743C /* SongView */,
+				DADA9CC329262329003F21C2 /* Login */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DACDE60F280213200002647D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DA91A8542808317F009BAC3E /* SongViewModel.swift */,
+				DADBFB32288E934900FA834D /* UserViewModel.swift */,
+				DA079ACC29374F180052637D /* FavoritesViewModel.swift */,
+				DA079ACA29374F030052637D /* RecentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DACDE6112802132E0002647D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB212885796100FA834D /* SignInWithAppleButtonView.swift */,
+				DADBFB23288579EB00FA834D /* SignInWithAppleView.swift */,
+				DADBFB2E288E88E300FA834D /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DADA9CC329262329003F21C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB262885DFC800FA834D /* LoginCircleButton.swift */,
+				DADA9CC129261D54003F21C2 /* ConditionsDescription.swift */,
+				DADA9CBF29261C7F003F21C2 /* ErrorText.swift */,
+				DA4ED90C2924F899001DF3DF /* LoginFieldRowView.swift */,
+				DA36D979296D6D9B00BA4776 /* GoogleReauthenticationButton.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DADBFB36288FECF700FA834D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB37288FECF700FA834D /* Firestore */,
+				DADBFB3C288FECF700FA834D /* Auth */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		DADBFB37288FECF700FA834D /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB38288FECF700FA834D /* FBFireStore.swift */,
+				DADBFB39288FECF700FA834D /* FBKeys.swift */,
+				DADBFB3A288FECF700FA834D /* FBUser.swift */,
+				DADBFB3B288FECF700FA834D /* FBFireStoreError.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		DADBFB3C288FECF700FA834D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DADBFB3D288FECF700FA834D /* UserInfo.swift */,
+				DADBFB3F288FECF700FA834D /* FBAuthError.swift */,
+				DADBFB40288FECF700FA834D /* FBAuth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DAE2B3D4287D540E005C3D79 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				DACDE6012802121D0002647D /* ContentView.swift */,
+				DADBFB2A2887263000FA834D /* MainView.swift */,
+				DAA439DD2802177E00491B99 /* HomeView.swift */,
+				DAA439DF280217FD00491B99 /* SearchView.swift */,
+				DA82AAB72806B62A00B0743C /* FavoritesView.swift */,
+				DADBFB1F28856A1D00FA834D /* LoginView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		DAE2B3D5287D5436005C3D79 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				DAB91C8A281300BD00B06B95 /* PlayerView.swift */,
+				DADBFB282885E67600FA834D /* SignUpWithMail.swift */,
+				DAE2B3D6287D545A005C3D79 /* TimerView.swift */,
+				DADBFB34288F1AF500FA834D /* ForgotPasswordView.swift */,
+				DADB53E12892910B0048D71A /* ForgotAlert.swift */,
+				DA4ED8DB291A549F001DF3DF /* LoadingScreen.swift */,
+				DAECDA5128E19D2F008E93B3 /* ProfileViews */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		DAECDA5128E19D2F008E93B3 /* ProfileViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA4ED8D9291A4351001DF3DF /* ProfileListView.swift */,
+				DA82AAB52806B61E00B0743C /* ProfileView.swift */,
+				DACC499F28A0EECB009B8912 /* PrivacyPolicyView.swift */,
+				DAECDA4B28D99920008E93B3 /* ChangePassword.swift */,
+				DACC49A128A0F98D009B8912 /* TermsAndConditionsView.swift */,
+				DAECDA4D28D9C666008E93B3 /* ReauthenticationView.swift */,
+				DAECDA5228E19D87008E93B3 /* AboutApp.swift */,
+				DA4ED8D7291A4325001DF3DF /* SettingsRowView.swift */,
+			);
+			path = ProfileViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA80AE9329508A7F00C9AE45 /* SleepTightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA80AE9A29508A7F00C9AE45 /* Build configuration list for PBXNativeTarget "SleepTightTests" */;
+			buildPhases = (
+				F1C7880A6D339FBA223E2244 /* [CP] Check Pods Manifest.lock */,
+				DA80AE9029508A7F00C9AE45 /* Sources */,
+				DA80AE9129508A7F00C9AE45 /* Frameworks */,
+				DA80AE9229508A7F00C9AE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA80AE9929508A7F00C9AE45 /* PBXTargetDependency */,
+			);
+			name = SleepTightTests;
+			productName = SleepTightTests;
+			productReference = DA80AE9429508A7F00C9AE45 /* SleepTightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DACDE5FB2802121D0002647D /* SleepTight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACDE60A2802121E0002647D /* Build configuration list for PBXNativeTarget "SleepTight" */;
+			buildPhases = (
+				03756C15D16191FCEDE7E6F3 /* [CP] Check Pods Manifest.lock */,
+				DACDE5F82802121D0002647D /* Sources */,
+				DACDE5F92802121D0002647D /* Frameworks */,
+				DACDE5FA2802121D0002647D /* Resources */,
+				2200EB72F620CD47274EE67D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTight;
+			productName = SleepTight;
+			productReference = DACDE5FC2802121D0002647D /* SleepTight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACDE5F42802121D0002647D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DA80AE9329508A7F00C9AE45 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DACDE5FB2802121D0002647D;
+					};
+					DACDE5FB2802121D0002647D = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = DACDE5F72802121D0002647D /* Build configuration list for PBXProject "SleepTight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACDE5F32802121D0002647D;
+			productRefGroup = DACDE5FD2802121D0002647D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACDE5FB2802121D0002647D /* SleepTight */,
+				DA80AE9329508A7F00C9AE45 /* SleepTightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA80AE9229508A7F00C9AE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACDE5FA2802121D0002647D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACDE6072802121E0002647D /* Preview Assets.xcassets in Resources */,
+				DA4296C42966CA0A00BB03F4 /* LaunchScreen.storyboard in Resources */,
+				DA760BB92811B76B00B58FFD /* GoogleService-Info.plist in Resources */,
+				DACDE6042802121E0002647D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03756C15D16191FCEDE7E6F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SleepTight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2200EB72F620CD47274EE67D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleepTight/Pods-SleepTight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleepTight/Pods-SleepTight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SleepTight/Pods-SleepTight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C7880A6D339FBA223E2244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SleepTightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA80AE9029508A7F00C9AE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA712DC82965820900B64CA9 /* AudioManagerTests.swift in Sources */,
+				DAA29E4F2963186400806A89 /* RecentViewModelTests.swift in Sources */,
+				DAA29E4B2962E83200806A89 /* FavoritesViewModelTests.swift in Sources */,
+				DAA29E4D296316B900806A89 /* SongViewModelTests.swift in Sources */,
+				DA80AE9729508A7F00C9AE45 /* SleepTightTests.swift in Sources */,
+				DAA29E492962E47A00806A89 /* UserViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACDE5F82802121D0002647D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4ED8DC291A549F001DF3DF /* LoadingScreen.swift in Sources */,
+				DA91A86428089FCE009BAC3E /* AppDelegate.swift in Sources */,
+				DA80AE8F294C5A4900C9AE45 /* SongRepository.swift in Sources */,
+				DA36D97A296D6D9B00BA4776 /* GoogleReauthenticationButton.swift in Sources */,
+				DA80AE8C294C5A1C00C9AE45 /* SongRepositoryProtocol.swift in Sources */,
+				DACC49A028A0EECB009B8912 /* PrivacyPolicyView.swift in Sources */,
+				DA82AAB62806B61E00B0743C /* ProfileView.swift in Sources */,
+				DA82AABF2806BD0F00B0743C /* Extensions.swift in Sources */,
+				DADA9CC229261D54003F21C2 /* ConditionsDescription.swift in Sources */,
+				DA91A84D28081451009BAC3E /* AudioManager.swift in Sources */,
+				DADBFB49288FECF700FA834D /* FBFireStore.swift in Sources */,
+				DADBFB4B288FECF700FA834D /* FBUser.swift in Sources */,
+				DA91A8452807FB4E009BAC3E /* CategoryButton.swift in Sources */,
+				DADBFB2F288E88E300FA834D /* SceneDelegate.swift in Sources */,
+				DA462DDB28CB40B8001CAF6A /* SearchBar.swift in Sources */,
+				DAA439DE2802177E00491B99 /* HomeView.swift in Sources */,
+				DAE2B3D7287D545A005C3D79 /* TimerView.swift in Sources */,
+				DA4ED8DE291A79E6001DF3DF /* SongDescription.swift in Sources */,
+				DADBFB4A288FECF700FA834D /* FBKeys.swift in Sources */,
+				DA079ACD29374F180052637D /* FavoritesViewModel.swift in Sources */,
+				DA712DC5296581B400B64CA9 /* BackgroundImage.swift in Sources */,
+				DADBFB24288579EB00FA834D /* SignInWithAppleView.swift in Sources */,
+				DA36D978296C596900BA4776 /* FavoritesSongsRepository.swift in Sources */,
+				DA91A8552808317F009BAC3E /* SongViewModel.swift in Sources */,
+				DA91A85128081667009BAC3E /* CoverPlayerView.swift in Sources */,
+				DADA9CC029261C7F003F21C2 /* ErrorText.swift in Sources */,
+				DA4ED8DA291A4351001DF3DF /* ProfileListView.swift in Sources */,
+				DADBFB272885DFC800FA834D /* LoginCircleButton.swift in Sources */,
+				DA4ED8D8291A4325001DF3DF /* SettingsRowView.swift in Sources */,
+				DACDE6022802121D0002647D /* ContentView.swift in Sources */,
+				DAB91C8D2815966500B06B95 /* MusicRowView.swift in Sources */,
+				DAECDA5328E19D87008E93B3 /* AboutApp.swift in Sources */,
+				DAB91C8B281300BD00B06B95 /* PlayerView.swift in Sources */,
+				DA4ED90B2924F5F0001DF3DF /* GreetingStringFormatter.swift in Sources */,
+				DA4ED90D2924F899001DF3DF /* LoginFieldRowView.swift in Sources */,
+				DA91A85328081AAE009BAC3E /* PlaybackControlButton.swift in Sources */,
+				DADBFB4F288FECF700FA834D /* FBAuthError.swift in Sources */,
+				DA82AAC82806DCBE00B0743C /* PlayButton.swift in Sources */,
+				DACC49A228A0F98D009B8912 /* TermsAndConditionsView.swift in Sources */,
+				DA82AAB82806B62A00B0743C /* FavoritesView.swift in Sources */,
+				DADBFB50288FECF700FA834D /* FBAuth.swift in Sources */,
+				DAECDA4C28D99920008E93B3 /* ChangePassword.swift in Sources */,
+				DAB8315F29643F2700FC8BD2 /* UserSongsProtocol.swift in Sources */,
+				DADBFB4C288FECF700FA834D /* FBFireStoreError.swift in Sources */,
+				DAECDA4E28D9C666008E93B3 /* ReauthenticationView.swift in Sources */,
+				DAA439E0280217FD00491B99 /* SearchView.swift in Sources */,
+				DADBFB2B2887263000FA834D /* MainView.swift in Sources */,
+				DADBFB35288F1AF500FA834D /* ForgotPasswordView.swift in Sources */,
+				DADBFB292885E67600FA834D /* SignUpWithMail.swift in Sources */,
+				DA079ACB29374F030052637D /* RecentViewModel.swift in Sources */,
+				DADBFB33288E934900FA834D /* UserViewModel.swift in Sources */,
+				DADB53E22892910B0048D71A /* ForgotAlert.swift in Sources */,
+				DADBFB2028856A1D00FA834D /* LoginView.swift in Sources */,
+				DACDE6002802121D0002647D /* SleepTightApp.swift in Sources */,
+				DAD170D0287A038F00CB7FB6 /* HeartView.swift in Sources */,
+				DADBFB4D288FECF700FA834D /* UserInfo.swift in Sources */,
+				DADBFB222885796100FA834D /* SignInWithAppleButtonView.swift in Sources */,
+				DADB53E42892A0C00048D71A /* AlertButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA80AE9929508A7F00C9AE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACDE5FB2802121D0002647D /* SleepTight */;
+			targetProxy = DA80AE9829508A7F00C9AE45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA80AE9B29508A7F00C9AE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68981CE44DF829E1106DBC1F /* Pods-SleepTightTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 939SQK427P;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Firebase/CoreOnly/Sources",
+					"$(SRCROOT)/Pods/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogdan.SleepTightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepTight";
+			};
+			name = Debug;
+		};
+		DA80AE9C29508A7F00C9AE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CBF83ACE2DA6879ABC784E /* Pods-SleepTightTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 939SQK427P;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Firebase/CoreOnly/Sources",
+					"$(SRCROOT)/Pods/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogdan.SleepTightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepTight";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACDE6082802121E0002647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		DACDE6092802121E0002647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		DACDE60B2802121E0002647D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0A62F44A96A319E3D9544 /* Pods-SleepTight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = SleepTight/SleepTight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepTight/Preview Content\"";
+				DEVELOPMENT_TEAM = 939SQK427P;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SleepTight/Components",
+					"$(PROJECT_DIR)/SleepTight",
+					"$(PROJECT_DIR)/SleepTight/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sleep Tight Baby";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = bogdan.SleepTight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		DACDE60C2802121E0002647D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1522AEA9B16E6EA9E2AB955 /* Pods-SleepTight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = SleepTight/SleepTight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepTight/Preview Content\"";
+				DEVELOPMENT_TEAM = 939SQK427P;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SleepTight/Components",
+					"$(PROJECT_DIR)/SleepTight",
+					"$(PROJECT_DIR)/SleepTight/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sleep Tight Baby";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = bogdan.SleepTight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA80AE9A29508A7F00C9AE45 /* Build configuration list for PBXNativeTarget "SleepTightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA80AE9B29508A7F00C9AE45 /* Debug */,
+				DA80AE9C29508A7F00C9AE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACDE5F72802121D0002647D /* Build configuration list for PBXProject "SleepTight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACDE6082802121E0002647D /* Debug */,
+				DACDE6092802121E0002647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACDE60A2802121E0002647D /* Build configuration list for PBXNativeTarget "SleepTight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACDE60B2802121E0002647D /* Debug */,
+				DACDE60C2802121E0002647D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACDE5F42802121D0002647D /* Project object */;
+}

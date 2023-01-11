@@ -1,0 +1,6 @@
+.DS_store
+Config.xcconfig
+GoogleService-Info.plist
+Components/
+ForgotAlert.swift
+SettingsRowView.swift
